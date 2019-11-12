@@ -1,6 +1,10 @@
-(ns clj-web-hands-on.core)
+(ns clj-web-hands-on.core
+  (:use ring.adapter.jetty)
+  (:use clj-web-hands-on.task0))
 
-(defn foo
-  "I don't do a whole lot."
-  [x]
-  (println x "Hello, World!"))
+(defn handler [request]
+  {:status 200
+   :headers {"Content-Type" "text/html"}
+   :body (greet)})
+
+(run-jetty handler {:port 3000})
