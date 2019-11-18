@@ -1,4 +1,4 @@
 (ns clj-web-hands-on.task0)
 
 (defn greet []
-  "Used Hello World")
+  "Used Hello World! No, rly..")

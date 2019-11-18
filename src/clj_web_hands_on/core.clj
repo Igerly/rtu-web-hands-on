@@ -5,6 +5,4 @@
 (defn handler [request]
   {:status 200
    :headers {"Content-Type" "text/html"}
-   :body (greet)})
-
-(run-jetty handler {:port 3000})
+   :body (str "/core:" (greet))})
