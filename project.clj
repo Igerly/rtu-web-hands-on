@@ -6,4 +6,4 @@
   :dependencies [[org.clojure/clojure "1.7.0"]
                  [ring/ring "1.7.1"]]
   :ring {:handler clj-web-hands-on.core/handler}
-  :plugins [[lein-ring "0.12.1"]])
+  :plugins [[lein-ring "0.12.5"]])
