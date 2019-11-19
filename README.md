@@ -11,7 +11,7 @@ A Clojure library designed to ... well, that part is up to you.
 ** lein ring server **
 
 ### Option 2 (eclipse + counterclockwise plugin)
-1. Press Alt+l then l
+1. Press Alt+L then L
 2. In the small command line which will appear in a random location on the screen enter **ring server**	
 
 ### Option 3 (idea + cursive plugin)
